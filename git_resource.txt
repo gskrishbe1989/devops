@@ -107,3 +107,45 @@ Date:   Fri Feb 21 13:08:49 2020 +0530
 Configure the TextMate 2 as default git text editor
 
 git config --global core.editor "mate -w"
+
+==============================================
+
+Usage of git diff to verify the changes 
+
+git diff
+
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   git_resource.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	Install-GIT.odp
+	TextMate_2.0.6.tbz
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$ git diff
+diff --git a/git_resource.txt b/git_resource.txt
+index 1c6ffd2..e04bb85 100644
+--- a/git_resource.txt
++++ b/git_resource.txt
+@@ -107,3 +107,12 @@ Date:   Fri Feb 21 13:08:49 2020 +0530
+ Configure the TextMate 2 as default git text editor
+ 
+ git config --global core.editor "mate -w"
++
++==============================================
++
++Usage of git diff to verify the changes 
++
++git diff
++
++===============================================
+
+
+===============================================
+
