@@ -149,3 +149,11 @@ index 1c6ffd2..e04bb85 100644
 
 ===============================================
 
+To verify the changes which is staged already
+
+git diff --staged 
+
+this command will help to display the difference between working area and staging area
+
+===============================================
+
