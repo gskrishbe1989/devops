@@ -157,3 +157,11 @@ this command will help to display the difference between working area and stagin
 
 ===============================================
 
+Delete a file using OS and Git
+
+If we delete a file using OS commands we need to specifically use "git add <deleted file>"
+
+if we use the git rm command to delete the file it is not required and is the safe way to remove file from git
+
+===============================================
+
