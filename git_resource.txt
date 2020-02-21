@@ -66,4 +66,44 @@ Rameshkrishnans-MacBook-Pro:DevOps rkgs$
 Adding files and Git logs
 
 
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   git_resource.txt
 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Install-GIT.odp
+	~$Install-GIT.odp
+
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$ git commit -m "git commit add logs"
+[master 0f2f156] git commit add logs
+ 1 file changed, 6 insertions(+)
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Install-GIT.odp
+	~$Install-GIT.odp
+
+nothing added to commit but untracked files present (use "git add" to track)
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$
+Rameshkrishnans-MacBook-Pro:DevOps rkgs$ git log
+commit 0f2f156b26c3e306562690cafb32f1ff93142121 (HEAD -> master)
+Author: Rameshkrishnan Geddy Sekar <gsrameshkrishnan@gmail.com>
+Date:   Fri Feb 21 13:15:15 2020 +0530
+
+    git commit add logs
+
+commit 81a3b19f4951eaac2f40539d5f7780ed77f25432
+Author: Rameshkrishnan Geddy Sekar <gsrameshkrishnan@gmail.com>
+Date:   Fri Feb 21 13:08:49 2020 +0530
+
+    my first git commit
+
+==============================================
+
+Configure the TextMate 2 as default git text editor
+
+git config --global core.editor "mate -w"
