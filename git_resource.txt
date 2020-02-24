@@ -166,3 +166,4 @@ if we use the git rm command to delete the file it is not required and is the sa
 ===============================================
 
 Adding git poll in pipleline jenkins .modify the poll command
+Addng one more line to check if it is polling
